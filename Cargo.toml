@@ -1,0 +1,8 @@
+[package]
+name = "remote2"
+version = "0.0.0-zero.0"
+authors = ["Boris Vinogradov <no111u3@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+actix-web = "1.0"
