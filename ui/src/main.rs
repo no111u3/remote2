@@ -1,6 +1,5 @@
 use yew;
 
 fn main() {
-    yew::initialize();
-    yew::run_loop();
+    yew::start_app::<ui::Model>();
 }

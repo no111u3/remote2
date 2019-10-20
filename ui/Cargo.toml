@@ -5,5 +5,5 @@ authors = ["Boris Vinogradov <no111u3@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-yew = "0.4"
+yew = "0.9"
 stdweb = "0.4"
