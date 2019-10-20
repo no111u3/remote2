@@ -18,7 +18,17 @@ impl Component for Model {
 impl Renderable<Model> for Model {    
     fn view(&self) -> Html<Self> {
         html! {
-            <p>{ "Hello from Wasm Rust" }</p>
+            <div id="root">
+            <header class="row">
+                <span class="logo">{ "Remote2" }</span>
+            </header>
+            <div>
+                <span class="spinner"></span><span>{ "Developing in progress" }</span>
+            </div>
+            <footer>
+                <p>{ "Draft version of WebUi for Remote2" }</p>
+            </footer>
+            </div>
         }
     }
 }
